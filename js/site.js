@@ -1,6 +1,6 @@
 // BASE_URL = "https://com-devjoy-contactsapi.herokuapp.com";
 BASE_URL = "https://com-devjoy-contactsapi.herokuapp.com";
-CONTACTS_URL = BASE_URL + "/contacts";
+CONTACTS_URL = BASE_URL + "/contacts/";
 
 
 
