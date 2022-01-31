@@ -1,4 +1,4 @@
-// BASE_URL = "https://com-devjoy-contactsapi.herokuapp.com";
+// BASE_URL = "http://127.0.0.1:8000";
 BASE_URL = "https://com-devjoy-contactsapi.herokuapp.com";
 CONTACTS_URL = BASE_URL + "/contacts/";
 
@@ -53,6 +53,9 @@ function on_receive_contacts(data) {
 
 }
 
+function on_create_contact(data) {
+    $("#create-contact-panel").slideToggle("slow");
+}
 
 
 
